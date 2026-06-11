@@ -1,0 +1,15 @@
+{
+  "name": "mindvaults-skills",
+  "owner": {
+    "name": "sqking-coke"
+  },
+  "description": "mindvaults 知识库的 AI 平台插件集合",
+  "plugins": [
+    {
+      "name": "mindvaults-glean",
+      "source": "./glean",
+      "description": "Claude Code 对话自动推送插件，将对话 QA 对同步到 mindvaults 知识沉淀库",
+      "license": "MIT"
+    }
+  ]
+}

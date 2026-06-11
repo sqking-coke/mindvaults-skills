@@ -4,7 +4,7 @@
 
 ## 前置条件
 
-- mindvaults ≥ v0.9.0 已安装并运行
+- mindvaults ≥ v0.10.0 已安装并运行
 - OpenClaw ≥ 2026.6.x
 - Node.js ≥ 22
 
