@@ -10,10 +10,16 @@
 
 ## 安装
 
-### 1. 安装 Skill
+### 1. Clone 仓库
 
 ```bash
-openclaw skills install /path/to/mindvaults-skills/openclaw
+git clone https://github.com/sqking-coke/mindvaults-skills.git
+```
+
+### 2. 安装 Skill
+
+```bash
+openclaw skills install mindvaults-skills/openclaw
 ```
 
 ### 2. 配置 MCP Server

@@ -8,14 +8,14 @@ Claude Code 对话自动推送插件，将每次对话的 QA 对同步到你的 
 
 ```bash
 # 在 Claude Code 中运行
-/plugin install github.com/sqking-coke/mindvaults-glean
+/plugin install github.com/sqking-coke/mindvaults-skills glean
 ```
 
 ### 方式二：手动安装
 
 ```bash
 mkdir -p ~/.claude/skills/mindvaults-glean
-cp -r SKILL.md hooks/ commands/ references/ .claude-plugin/ ~/.claude/skills/mindvaults-glean/
+cp -r mindvaults-skills/glean/{SKILL.md,hooks,commands,references,.claude-plugin} ~/.claude/skills/mindvaults-glean/
 ```
 
 ## 首次配置
