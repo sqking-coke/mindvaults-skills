@@ -10,19 +10,28 @@
 
 ## 安装
 
-### 1. Clone 仓库
+### 方式一：一键安装（推荐）
+
+```bash
+git clone https://github.com/sqking-coke/mindvaults-skills.git
+cd mindvaults-skills/openclaw && bash install.sh
+```
+
+### 方式二：手动安装
+
+**1. Clone 仓库**
 
 ```bash
 git clone https://github.com/sqking-coke/mindvaults-skills.git
 ```
 
-### 2. 安装 Skill
+**2. 安装 Skill**
 
 ```bash
-openclaw skills install mindvaults-skills/openclaw
+openclaw skills install ./mindvaults-skills/openclaw
 ```
 
-### 2. 配置 MCP Server
+**3. 配置 MCP Server**
 
 编辑 `~/.openclaw/openclaw.json`，添加 MCP 配置（参考 `config/openclaw.json.template`）：
 
@@ -41,14 +50,14 @@ openclaw skills install mindvaults-skills/openclaw
 }
 ```
 
-### 3. 重启 Gateway
+**4. 重启 Gateway**
 
 ```bash
-pkill -f "openclaw gateway"
+pkill -f "openclaw gateway" || true
 openclaw gateway --port 18789 &
 ```
 
-### 4. （可选）安装微信 ClawBot
+**5. （可选）安装微信 ClawBot**
 
 ```bash
 npx -y @tencent-weixin/openclaw-weixin-cli@latest install

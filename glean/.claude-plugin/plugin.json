@@ -4,7 +4,7 @@
   "description": "自动推送 Claude Code 对话到 mindvaults 知识沉淀系统",
   "author": {
     "name": "mindvaults",
-    "url": "https://github.com/sqking-coke/mindvaults-glean"
+    "url": "https://github.com/sqking-coke/mindvaults-skills"
   },
   "license": "MIT",
   "hooks": {
