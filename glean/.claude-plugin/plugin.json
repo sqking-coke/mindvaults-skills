@@ -6,8 +6,5 @@
     "name": "mindvaults",
     "url": "https://github.com/sqking-coke/mindvaults-skills"
   },
-  "license": "MIT",
-  "hooks": {
-    "source": "./hooks/hooks.json"
-  }
+  "license": "MIT"
 }
