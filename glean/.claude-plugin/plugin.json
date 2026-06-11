@@ -1,0 +1,13 @@
+{
+  "name": "mindvaults-glean",
+  "version": "1.0.0",
+  "description": "自动推送 Claude Code 对话到 mindvaults 知识沉淀系统",
+  "author": {
+    "name": "mindvaults",
+    "url": "https://github.com/sqking-coke/mindvaults-glean"
+  },
+  "license": "MIT",
+  "hooks": {
+    "source": "./hooks/hooks.json"
+  }
+}

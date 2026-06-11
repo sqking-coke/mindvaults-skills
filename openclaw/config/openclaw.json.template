@@ -1,0 +1,12 @@
+{
+  "mcp": {
+    "servers": {
+      "mindvaults": {
+        "enabled": true,
+        "command": "/path/to/mindvaults/backend/venv/bin/python",
+        "args": ["-m", "app.mcp.server"],
+        "cwd": "/path/to/mindvaults/backend"
+      }
+    }
+  }
+}
